@@ -1,0 +1,15 @@
+body{
+	background-image:linear-gradient(to left, #c8c8c8, #dfe2e5, #cdcdcd 100%);
+	animation: rotate 1.8s ease-in-out infinite;
+}
+
+nav{
+	float:right;
+	padding-bottom:490px;
+	padding-right:70px;
+	padding-top:40px;
+} 
+
+.copyright{
+	color:#2a2922;
+}

@@ -1,0 +1,158 @@
+h3{
+	color:blue;
+	font-family:Celtic;
+	font-weight:normal;
+	font-size:30px;
+	font-style:italic;
+	padding:0px;
+	margin-left:50px;
+	padding-left:100px;
+	
+}
+
+button{
+	background-color:silver;
+	border-style:solid;
+}
+
+p{
+	color:blue;
+}
+
+body{
+	margin:0px;
+	background-image:url(rc.png);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+h2{
+	color:red;
+	text-align:center-left;
+	text-decoration:none;
+	font-family:celtic;
+	font-size:25px;
+}
+
+h1{
+	color:#3479bd;
+	font-family:Tahoma;
+	font-style:italic;
+	font-weight:2;
+	font-size:30px;
+}
+
+a{
+	text-decoration:none;
+	font-family:celtic;
+	font-size:20px;
+	color:#2680f7;
+}
+
+a:hover{
+	text-decoration:underline;
+    color:red;
+}
+
+a:active{
+	font-style:italic;
+	color:blue;
+}
+
+
+a:visited{
+	text-decoration:underline;
+}
+
+ul{
+	color:black;
+	list-style-type:disc;
+}
+
+h4{
+	font-family:celtic;
+font-weight:25;
+}
+
+header,footer,aside,section,nav,article{
+	display:block;
+}
+
+nav{
+
+}
+
+.copyright{
+	padding-top:500px;
+	font-family:tahoma;
+	font-weight:19px;
+	text-align:center;
+	color:#3479bd;
+}
+
+div ul{
+	list-style-type:disc;
+}
+
+form ol{
+	padding-top:40px;
+	text-align:center;
+	list-style-type:none;
+}
+
+#submit{
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:50px;
+	border-radius:5px;
+	margin-left:400px;
+}
+
+#login{
+	padding-top:0px;
+	border:0px,0px;
+	margin-top:50px;
+	background-image:linear-gradient(to top, #285f95,#1578dc);
+	border-radius:4px;
+}
+
+#gender{
+	text-align:center-left;
+	margin-right:10px;
+	color:02eafd;
+}
+
+#form{
+	background-color:#9f0000;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.logo{
+	padding-top:0px;
+	padding-bottom:10px;
+	width:50px;
+	height:50px;
+}
+
+.personal_info label{
+	float:left;
+	text-align:right;
+	width:100px;
+}
+
+header{
+	margin-top:0px;
+	border-top:0px;
+	padding-top:0px;
+}
+
+fieldset{
+	width:225px;                                                          
+}
+
+#index{
+	background-repeat:no-repeat;
+	background-position:top;
+}

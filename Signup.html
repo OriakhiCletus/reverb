@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<link rel=stylesheet href="main.css"/>
+	<title>www.reverbtech.com/signup</title>
+	</head>
+		<header>
+			<img class="logo" src="logo.png" alt="logo" width="100" height="10000"/>
+		</header>
+		<form action="revdb.php" method="post">
+			<fieldset class="personal_info">
+				<legend>Create New Account</legend>
+				<p>
+					<input type="text" name="Full Name" placeholder="Full Name" required='required'/>
+				</p>
+				<p>
+					<input type="text" name="Phone" placeholder="Phone" required='required'/>
+				</p>
+				<p>
+					<input type="text" name="Email" placeholder="Email" required='required'/>
+				</p>
+				<p id="country">
+					Country
+					<select type="radio" for="Country">
+						<option>Algeria</option>
+						<option>Argentina</option>
+						<option>Australia</option>
+						<option>Belgium</option>
+						<option>Bolivia</option>
+						<option>Brazil</option>
+						<option>Bulgaria</option>
+						<option>Canada</option>
+						<option>Chile</option>
+						<option>China</option>
+						<option>Colombia</option>
+						<option>Czech</option>
+						<option>Denmark</option>
+						<option>Egypt</option>
+						<option>Finland</option>
+						<option>France</option>
+						<option>Germany</option>
+						<option>Ghana</option>
+						<option>Greece</option>
+						<option>Hungary</option>
+						<option>Iceland</option>
+						<option>India</option>
+						<option>Ireland</option>
+						<option>Italy</option>
+						<option>Japan</option>
+						<option>Korea</option>
+						<option>Mexico</option>
+						<option>Netherlands</option>
+						<option>New Zealand</option>
+						<option>Nigeria</option>
+						<option>Norway</option>
+						<option>Phillippines</option>
+						<option>Poland</option>
+						<option>Portugal</option>
+						<option>Qatar</option>
+						<option>Romania</option>
+						<option>Singapore</option>
+						<option>South Africa</option>
+						<option>Spain</option>
+						<option>Sweden</option>
+						<option>Switzerland</option>
+						<option>United Kingdom</option>
+						<option selected>U.S.A</option>
+						<option>Russia</option>
+						<textarea>Other</textarea>
+					</select>
+				</p>
+				<p>
+					<input type="text" name="City" PlaceholdeR="City"/>
+				</p>
+				<p>
+					<input type="password" name="New Password" placeholder="New Password."/>
+				</p>
+				<p>
+					<input name="Confirm Password" type="password" placeholder="Confirm Password."/>
+				</p>
+				<p>
+					<textarea name="Home Address" placeholder="Home Address"></textarea>
+				</p>
+				<h id="gender">Sex: </h>
+				Male<input type="radio" name="sex" value="Male"/>
+				Female<input name="sex" type="radio" value="Female"/>
+				<p id = "pp">
+					Upload a profile picture
+				</p>
+				<input type="file" name="Profile Picture"/>
+				<p>
+					<input type="reset" id="reset"/>
+				</p>
+				<input type="submit" id="submit"/>
+			</fieldset>
+		</form>
+			<br><a href="index.html">Back To Homepage</a></br>
+	<marquee><footer class="copyright">
+	Copyright&copy;ReverbTech2018
+	</footer></marquee>
+</html>
